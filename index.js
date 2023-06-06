@@ -24,7 +24,7 @@ function playSound (key) {
     
     switch (key) {
         case "w":
-            var audio = new Audio ("sounds/crash.mp3");
+            var audio = new Audio ("./sounds/crash.mp3");
             audio.play();
         break;
 
